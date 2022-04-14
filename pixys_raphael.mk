@@ -8,10 +8,10 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := ancient_raphael
+PRODUCT_NAME := pixys_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
@@ -28,12 +28,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 EXTRA_FOD_ANIMATIONS := true
 
-# Ancient
-ANCIENT_OFFICIAL=true
+# PixysOS
+PixysOS_OFFICIAL=false
 #TARGET_GAPPS_ARCH := arm64
 #IS_PHONE := true
-#ANCIENT_GAPPS := true
-#ANCIENT_WEEABO := true
-FORCE_LAWNCHAIR=true
+#PixysOS_GAPPS := true
 #PIXEL_STUFF := true
 EXTRA_UDFPS_ANIMATIONS := true

@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_raphael.mk
+    $(LOCAL_DIR)/pixys_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_raphael-user \
-    ancient_raphael-userdebug \
-    ancient_raphael-eng
+    pixys_raphael-user \
+    pixys_raphael-userdebug \
+    pixys_raphael-eng
