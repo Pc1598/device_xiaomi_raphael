@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_raphael.mk
+    $(LOCAL_DIR)/elytra_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_raphael-user \
-    cherish_raphael-userdebug \
-    cherish_raphael-eng
+    elytra_raphael-user \
+    elytra_raphael-userdebug \
+    elytra_raphael-eng
